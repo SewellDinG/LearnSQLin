@@ -87,7 +87,7 @@
 - like 匹配注入：
   1. select user() like 'ro%';   前两位如果是ro，则返回 1；
 
-####基于报错的 SQL 盲注，构造 payload 让信息通过错误提示回显出来
+#### 基于报错的 SQL 盲注，构造 payload 让信息通过错误提示回显出来
 
 - 常规手法（无版本要求）
   - 参考资料：[http://www.lijiejie.com/mysql-injection-error-based-duplicate-entry](http://www.lijiejie.com/mysql-injection-error-based-duplicate-entry/)
